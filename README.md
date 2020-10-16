@@ -15,8 +15,8 @@ Press the run button on Xcode.
 
 # Demo Of Application UI
 
-You can see from the UI the application has
-Digits 0 - 9
+### You can see from the UI the application has
+###Digits 0 - 9
 A button (C) to reset the calculator
 A Button (+/-) to change sign 
 Buttons (%, /, x, -, + ) to perform remainder, division , multiplication, subtraction and addition respectively 
