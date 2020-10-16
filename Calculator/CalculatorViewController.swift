@@ -107,6 +107,8 @@ class CalculatorViewController: UIViewController {
             if (resultLabel.text == "0") || operation == 16 {
                 resultLabel.text = "\((sender as AnyObject).tag - 1)"
                 operation = 0
+            } else if (resultLabel.text == "-0.0" || resultLabel.text == "-0" ) {
+                resultLabel.text = "-\((sender as AnyObject).tag - 1)"
             } else {
                 resultLabel.text = resultLabel.text! + "\((sender as AnyObject).tag - 1)"
             }
