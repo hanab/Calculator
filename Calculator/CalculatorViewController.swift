@@ -80,7 +80,7 @@ class CalculatorViewController: UIViewController {
             historyEntry += getHistoryText(operation: "+")
         case 17://remainder
             resultLabel.text = "\(lhs.truncatingRemainder(dividingBy: numerOnScreen))"
-            historyEntry += getHistoryText(operation: "+")
+            historyEntry += getHistoryText(operation: "%")
         default:
             print("unkown operation")
         }
